@@ -1,0 +1,11 @@
+.{
+    .name = "bunnymark-zig",
+    .version = "0.1.0",
+    .paths = .{""},
+    .dependencies = .{
+        .raylib = .{
+            .url = "https://github.com/raysan5/raylib/archive/ec95ee85a386db29f059b9738cd5ec9329f1661e.tar.gz",
+            .hash = "1220ef5d947d0bb41d19fe32f4308143bdd650038f9f439e4366bca9e97e7e46ec84",
+        },
+    },
+}
