@@ -16,7 +16,7 @@ pub fn main() !void {
 
     c.InitWindow(screenWidth, screenHeight, "raylib [textures] example - bunnymark");
 
-    const texBunny: c.Texture2D = c.LoadTexture("/home/fbi/repo/zig/bunnymark-zig/src/resources/wabbit_alpha.png");
+    const texBunny: c.Texture2D = c.LoadTexture("src/resources/wabbit_alpha.png");
     var arena = std.heap.ArenaAllocator.init(std.heap.page_allocator);
     defer arena.deinit();
 
